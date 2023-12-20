@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.works {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 90vh;
+  margin-top: 4rem;
+}
+
+/* right side   */
+
+.m-right {
+  position: relative;
+  top: -17rem;
+  right: -11rem;
+}
+
+.m-mainCircle {
+  left: 39rem;
+  position: relative;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 100%;
+  box-shadow: var(--smboxShadow);
+  top: 2rem;
+  background: white;
+}
+
+.m-mainCircle>* {
+  position: absolute;
+}
+
+/* .m-seCircle>:nth-child(1){
+    top:-8rem;
+    left: 8rem;
+
+}  */
+.m-seCircle1 {
+  left: -5rem;
+  top: 7rem;
+  width: 6rem;
+
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: var(--smboxShadow);
+  background: white;
+}
+
+.m-seCircle2 {
+  left: 16rem;
+  top: 7rem;
+  width: 6rem;
+
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: var(--smboxShadow);
+  background: white;
+}
+.m-seCircle3 {
+  left: 5rem;
+  top: -3rem;
+  width: 6rem;
+
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: var(--smboxShadow);
+  background: white;
+}
+.m-seCircle4 {
+  left: 6rem;
+  top: 15rem;
+  width: 6rem;
+
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: var(--smboxShadow);
+  background: white;
+}
+.m-seCircle5 {
+  left: 6rem;
+  top: 6rem;
+  width: 6rem;
+
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: var(--smboxShadow);
+  background: white;
+}
+
+.m-seCircle {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  border-radius: 100%;
+  border: 5px solid #ebebed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  box-shadow: var(--smboxShadow);
+  background: white;
+}
+
+.m-seCircle1 > img {
+  transform: scale(0.6);
+}
+.m-seCircle2 > img {
+  transform: scale(0.6);
+}
+
+.m-seCircle3 > img {
+  transform: scale(0.068);
+}
+.m-seCircle4 > img {
+  transform: scale(0.4);
+}
+.m-seCircle5 > img {
+  transform: scale(0.11);
+}
+.m-backCircle {
+  position: absolute;
+
+  height: 13rem;
+  width: 13rem;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+.blueCircle {
+  background: #194988;
+  left: 49rem;
+  top: 10rem;
+}
+
+.yellowCircle {
+  background: #f5c32c;
+  left: 48rem;
+  top: -1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .works {
+    flex-direction: column;
+    height: 55rem;
+    padding: 0;
+    gap: 5rem;
+  }
+  .m-right {
+    margin-top: 300px;
+   
+     margin-left: -200px;
+    /* display: flex; */
+   
+   /* flex-direction: row; */
+    /* align-items: flex-start; */
+    /* justify-content: start; */
+    transform: scale(0.7);
+    /* flex-direction: column; */
+    
+  }
+  .m-mainCircle {
+    position: static;
+  }
+  .m-backCircle {
+    left: 9rem !important;
+  }
+}
